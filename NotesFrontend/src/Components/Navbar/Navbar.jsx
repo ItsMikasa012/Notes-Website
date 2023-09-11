@@ -33,13 +33,13 @@ const Navbar = () => {
 			<div className="usersystemdiv">
 				<div className="brightnessbuttondiv">
 					<button>
-						<img src="/public/images/brightnessmodebutton.svg" alt="" />
+						<img src="/images/brightnessmodebutton.svg" alt="" />
 					</button>
 				</div>
 
 				<div className="accountbuttondiv">
 					<button>
-						<img src="/public/images/useraccountbutton.svg" alt="" />
+						<img src="/images/useraccountbutton.svg" alt="" />
 					</button>
 				</div>
 			</div>

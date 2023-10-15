@@ -1,0 +1,113 @@
+::-webkit-scrollbar-thumb{
+  background: black;
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-track{
+  background: none;
+}
+
+.note_section_div{
+
+}
+
+.notes_card_overlay{
+  all: unset;
+  cursor: pointer;
+}
+
+.notes_card{
+  background-color: #FBF0B2;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 15rem;
+  border-radius: 1rem;
+  gap: 1.5rem;
+
+}
+
+.title{
+
+}
+
+.content{
+display: -webkit-box;
+overflow: hidden;
+-webkit-line-clamp: 5;
+-webkit-box-orient: vertical;
+}
+
+.modal{
+  position: fixed;
+  display: grid;
+  background: rgba(0, 0, 0, 0.5);
+  inset: 0;
+  place-items: center;
+
+}
+
+.modal_card{
+  display: grid;
+  gap: 2rem;
+  background-color: #FFC7EA;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+
+.modal_card textarea{
+  resize: none;
+  background: none;
+  outline: none;
+  border: none;
+  overflow: horizontal;
+  font-size: 1.5rem;
+  margin-right: 0.8rem;
+}
+
+::-webkit-scrollbar{
+  width: 0.5rem;
+}
+
+.first_part{
+  display: flex;
+  justify-content: space-between;
+  background: none;
+}
+
+.first_part input{
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+}
+
+.x_btn{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.btn_div{
+  display: flex;
+  gap: 1rem;
+}
+
+.btn_div button{
+  font-size: large;
+  border-radius: 2rem;
+  padding: 0.8rem 2rem;
+  outline: none;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn_div button:nth-child(1){
+  color: green;
+}
+
+.btn_div button:nth-child(2){
+  color: red;
+}

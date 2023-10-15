@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Navbar.css'
+import style from './Navbar.module.css'
 
 
 
@@ -10,9 +10,9 @@ const Navbar = () => {
 
 
   return (
-    <div className='navbar'>
-      <div className="addbuttondiv">
-        <button className='addbutton' onClick={
+    <div className= {style.navbar}>
+      <div className={style.addbuttondiv}>
+        <button className={style.addbutton} onClick={
           () => {
             setIsActive(!isActive);
           }
@@ -21,7 +21,7 @@ const Navbar = () => {
         </button>
       </div>
       {
-        isActive && (<div className="color-buttons" >
+        isActive && (<div className={style.color_buttons} >
         {
           colorPalette.map((color, index) => {
             return <div key={index} style={{backgroundColor:color}}></div>
@@ -30,14 +30,14 @@ const Navbar = () => {
       </div>
       )
       }
-			<div className="usersystemdiv">
-				<div className="brightnessbuttondiv">
+			<div className={style.usersystemdiv}>
+				<div className={style.brightnessbuttondiv}>
 					<button>
 						<img src="/images/brightnessmodebutton.svg" alt="" />
 					</button>
 				</div>
 
-				<div className="accountbuttondiv">
+				<div className={style.accountbuttondiv}>
 					<button>
 						<img src="/images/useraccountbutton.svg" alt="" />
 					</button>

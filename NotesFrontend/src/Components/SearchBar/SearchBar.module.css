@@ -1,0 +1,30 @@
+.searchbardiv{
+  margin-top: 2rem;
+  height: 5.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  
+}
+
+.searchbar input{
+  margin-left: 2.5rem;
+  padding: 1rem 2rem;
+  max-width: 40rem;
+  width: 70vw;
+  border-radius: 10rem;
+  outline: none;
+  border: none;
+  background-color: #EEEEEE;
+  font-size: large;
+}
+
+.searchbtn{
+margin-left: 1rem;
+padding: 0.6rem 1.5rem;
+border-radius: 10rem;
+background-color: #92BDFF;
+border: none;
+cursor: pointer;
+}

@@ -1,0 +1,59 @@
+.sign_up{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10vh;
+}
+
+.title{
+
+}
+
+.title p{
+  font-size: 5rem;
+  letter-spacing: 3rem;
+  font-family: 'Inika', serif;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF9C9C;
+  width: 30rem;
+  padding: 4rem 1rem;
+  padding-top: 3rem;
+  border-radius: 1rem;
+  gap: 2rem;
+}
+
+.form_div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  
+}
+
+.form_div input{
+  padding: 1rem;
+  border-radius: 0.7rem;
+  max-width: 25rem;
+  width: 20rem;
+  font-size: large;
+  border: none;
+}
+
+.login_btn{
+  padding: 1rem 4rem;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  font-size: large;
+}
+
+.card p{
+  font-weight: bold;
+}

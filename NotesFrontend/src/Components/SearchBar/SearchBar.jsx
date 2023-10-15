@@ -1,14 +1,15 @@
 import useState from 'react';
-import './SearchBar.css'
+import Searchstyles from './SearchBar.module.css'
 
 
 
 const Sidebar = () => {
   return (
-    <div className='searchbardiv'>
-      <div className="searchbar">
-        <input type="text" />
+    <div className={Searchstyles.searchbardiv}>
+      <div className={Searchstyles.searchbar}>
+        <input type="text" id='search_text' placeholder='Search Note'/>
       </div>
+      <button className={Searchstyles.searchbtn}><img src="/images/Seach symbol.svg" width={30} alt="" /></button>
     </div>
   );
 };
